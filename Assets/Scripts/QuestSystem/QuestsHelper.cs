@@ -1,11 +1,10 @@
 ﻿using System.Linq;
-using Features.QuestSystem.BluePrints;
-using HECSFramework.Unity.Features.QuestSystem;
+using QuestSystem.BluePrints;
 using Sirenix.Utilities;
 using UnityEditor;
 using Random = UnityEngine.Random;
 
-namespace Features.QuestSystem
+namespace QuestSystem
 {
     public static class QuestsHelper
     {

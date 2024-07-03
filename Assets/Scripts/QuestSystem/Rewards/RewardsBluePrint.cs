@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace HECSFramework.Rewards
+namespace QuestSystem.Rewards
 {
     public abstract class RewardsBluePrintBase : ScriptableObject
     {

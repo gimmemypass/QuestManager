@@ -1,4 +1,4 @@
-﻿namespace HECSFramework.Core
+﻿namespace QuestSystem
 {
     public partial interface IPredicate<TContext>
     {

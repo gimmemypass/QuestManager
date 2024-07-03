@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using HECSFramework.Unity;
-using HECSFramework.Unity.Features.QuestSystem;
 using Sirenix.OdinInspector;
+using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
-
-namespace Features.QuestSystem.BluePrints
+namespace QuestSystem.BluePrints
 {
     public class Quest : ScriptableObject
     {
@@ -35,9 +30,6 @@ namespace Features.QuestSystem.BluePrints
 
         [SerializeField] private string description;
         [SerializeField] private Sprite icon;
-        
-        [SerializeField] private PredicateBluePrint[] predicates;
-        [SerializeField] private QuestResult[] results;
         
         [SerializeField]
         private QuestStepsHolder questStepsHolder = new();

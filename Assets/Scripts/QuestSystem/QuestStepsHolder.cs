@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using Features.QuestSystem.BluePrints;
-using HECSFramework.Unity.Features.QuestSystem;
+using QuestSystem.BluePrints;
 using Sirenix.OdinInspector;
 using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Features.QuestSystem
+namespace QuestSystem
 {
     [Serializable]
     public class QuestStepsHolder

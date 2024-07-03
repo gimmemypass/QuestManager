@@ -1,9 +1,9 @@
 ﻿using System;
-using Features.QuestSystem.BluePrints;
 using MessagePack;
 using Newtonsoft.Json;
+using QuestSystem.BluePrints;
 
-namespace HECSFramework.Serialize
+namespace QuestSystem.Resolvers
 {
     [Serializable, JsonObject]
     public struct CompositeLinearQuestStepResolver: IQuestStepResolver<CompositeLinearQuestStep, CompositeLinearQuestStepResolver>

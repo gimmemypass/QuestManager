@@ -1,4 +1,4 @@
-namespace HECSFramework.Rewards
+namespace QuestSystem.Rewards
 {
     public partial interface IReward
     {

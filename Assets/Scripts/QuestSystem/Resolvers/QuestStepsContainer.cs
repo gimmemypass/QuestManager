@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Features.QuestSystem.BluePrints;
-using HECSFramework.Serialize;
-using HECSFramework.Unity.Features.QuestSystem;
 using Newtonsoft.Json;
-using QuestSystem.Resolvers;
+using QuestSystem.BluePrints;
 using UnityEngine;
 
-namespace HECSFramework.Core
+namespace QuestSystem.Resolvers
 {
     public partial class ResolversMap
     {

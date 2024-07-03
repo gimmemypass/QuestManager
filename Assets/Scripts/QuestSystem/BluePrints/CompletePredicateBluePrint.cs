@@ -1,10 +1,7 @@
-﻿using HECSFramework.Core;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace HECSFramework.Unity
+namespace QuestSystem.BluePrints
 {
-    
-    public abstract class PredicateBluePrint
     public abstract class PredicateBluePrint<TContext> : ScriptableObject, IPredicateContainer<TContext>
     {
         public abstract IPredicate<TContext> GetPredicate(TContext context);

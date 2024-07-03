@@ -1,8 +1,7 @@
 ﻿using System;
-using Features.QuestSystem.BluePrints;
 using UnityEngine;
 
-namespace HECSFramework.Unity.Features.QuestSystem
+namespace QuestSystem.BluePrints
 {
     [Serializable]
     public class DebugQuestStep : BaseQuestStep, IActionQuestStep

@@ -2,15 +2,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Features.QuestSystem.BluePrints;
-using HECSFramework.Unity.Features.QuestSystem;
+using QuestSystem.BluePrints;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
 using UnityEditor;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Features.QuestSystem
+namespace QuestSystem
 {
     public class AddQuestStepWindow : OdinEditorWindow
     {

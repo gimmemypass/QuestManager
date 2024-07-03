@@ -1,8 +1,7 @@
 ﻿using System.Linq;
-using HECSFramework.Unity.Features.QuestSystem;
 using UnityEngine;
 
-namespace Features.QuestSystem.BluePrints
+namespace QuestSystem.BluePrints
 {
     public class CompositeLinearQuestStep : BaseQuestStep
     {

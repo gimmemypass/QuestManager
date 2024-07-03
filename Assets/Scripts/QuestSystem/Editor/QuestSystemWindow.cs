@@ -1,15 +1,13 @@
 ﻿using System;
 using System.IO;
-using Features.QuestSystem.BluePrints;
-using HECSFramework.Core;
-using QuestSystem.Editor;
+using QuestSystem.BluePrints;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
 using Unity.Plastic.Newtonsoft.Json;
 using UnityEditor;
 using UnityEngine;
 
-namespace HECSFramework.Unity.Editor
+namespace QuestSystem.Editor
 {
     public class QuestSystemWindow : OdinMenuEditorWindow
     {

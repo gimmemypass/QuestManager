@@ -1,7 +1,6 @@
-﻿using HECSFramework.Core;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace HECSFramework.Unity.Features.QuestSystem
+namespace QuestSystem.BluePrints
 {
     public abstract partial class BaseQuestStep : ScriptableObject, IQuestStep
     {

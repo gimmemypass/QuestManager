@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HECSFramework.Core
+namespace QuestSystem
 {
     public static class IndexGenerator
     {

@@ -1,4 +1,4 @@
-namespace Features.QuestSystem.BluePrints
+namespace QuestSystem.BluePrints
 {
     public interface IActionQuestStep
     {

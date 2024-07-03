@@ -1,7 +1,6 @@
 ﻿using System;
-using HECSFramework.Core;
 
-namespace HECSFramework.Unity.Features.QuestSystem
+namespace QuestSystem.BluePrints
 {
     public interface IQuestStep : IDisposable
     {
