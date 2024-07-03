@@ -7,10 +7,10 @@ namespace QuestSystem.Rewards
         public abstract IReward GetReward();
     }
 
-    public abstract class RewardsBluePrint<RewardType> : RewardsBluePrintBase where RewardType : IReward
+    public abstract class RewardsBluePrint<TRewardType> : RewardsBluePrintBase where TRewardType : IReward
     {
-        [SerializeField] RewardType Reward;
+        [SerializeField] private TRewardType reward;
 
-        public override IReward GetReward() => Reward;
+        public override IReward GetReward() => reward;
     }
 }

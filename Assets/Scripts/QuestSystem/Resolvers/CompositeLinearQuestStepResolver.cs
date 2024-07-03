@@ -23,8 +23,6 @@ namespace QuestSystem.Resolvers
         public void Out(ref CompositeLinearQuestStep data)
         {
             data.SetCompleted(IsCompleted);
-            // Uncomment when we need save state in composite linear steps
-            // data.GoToStep(CurrentStepIndex);
         }
     }
 }
