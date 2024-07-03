@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace QuestSystem.BluePrints
+namespace QuestSystem.Predicates
 {
     public abstract class PredicateBluePrint<TContext> : ScriptableObject, IPredicateContainer<TContext>
     {

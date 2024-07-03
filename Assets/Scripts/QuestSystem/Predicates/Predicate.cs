@@ -1,4 +1,4 @@
-﻿namespace QuestSystem
+﻿namespace QuestSystem.Predicates
 {
     public partial interface IPredicate<TContext>
     {

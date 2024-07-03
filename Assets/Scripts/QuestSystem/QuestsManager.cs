@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 using QuestSystem.BluePrints;
+using QuestSystem.Data;
 using QuestSystem.Resolvers;
 using UnityEngine;
 
